@@ -1,0 +1,78 @@
+.forumpost {
+    border: 1px #B3B3B3 solid;
+    border-radius: 10px;
+    padding: 10px;
+    background: #FFFFFF;
+}
+
+.forumheaderlist {
+    border: 1px #B3B3B3 solid;
+    border-radius: 10px;
+    padding: 5px;
+    background: #FFFFFF;
+}
+
+.path-mod-forum .forumheaderlist td {
+    border: none;
+}
+
+.glossarydisplay {
+    border: 1px #B3B3B3 solid;
+    border-radius: 10px;
+    padding: 10px;
+    background: #FFFFFF;
+}
+
+.path-mod-choice .choices {
+    border: 1px #B3B3B3 solid;
+    border-radius: 10px;
+    padding: 10px;
+    background: #FFFFFF;
+}
+
+.path-mod-choice .response {
+    border: 1px #B3B3B3 solid;
+    border-radius: 10px;
+    padding: 10px;
+    background: #FFFFFF;
+}
+
+.tabtree {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.tabtree li {
+    border: 1px #B3B3B3 solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 3px;
+    background: #FFFFFF;
+}
+
+.path-mod-lesson .headingcontainer h2 {
+    text-align: center;
+    margin: 0.2em;
+}
+
+.path-mod-lesson .contents {
+    border: 1px #B3B3B3 solid;
+    border-radius: 10px;
+    padding: 10px;
+    background: #FFFFFF;
+    min-height: 100px;
+}
+
+.quizattemptsummary {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background: #FFFFFF;
+}
+
+.surveytable {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background: #FFFFFF;
+}

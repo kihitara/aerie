@@ -1,0 +1,257 @@
+/* ---------------- Font settings ---------------- */
+
+html {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+body { 
+    font-family: Helvetica, "Arial", Tahoma, sans-serif;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    background-color:[[setting:pagebackgroundcolor]];
+}
+
+#wrapper {
+    padding: 5px;
+    border: 10px solid;
+    border-radius: 10px;
+    border-color: [[setting:framecolor]];
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 15px;
+    min-width: 900px;
+    background-color: [[setting:insidebackgroundcolor]];
+}
+
+#page-content .region-content {
+    overflow: hidden;
+    padding: 5px;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,ol,dl,input,textarea { 
+    font-family: Helvetica, "Arial", Tahoma, sans-serif;
+    color: #000000;
+    padding: 2px;
+}
+
+a { 
+    color: #0000FF;
+    text-decoration: none;
+}
+
+a:hover { 
+    text-decoration: none;
+    color: #ff0000;
+}
+
+/* ---------------- All headingblocks ---------------- */
+
+.headingblock {
+    background-image: url([[pix:theme|hgradient]]);
+    background-repeat: repeat-x;
+    background-position: top left;
+    background-color: [[setting:navbarcolor]];
+    border: 1px #B3B3B3 solid;
+    border-radius: 10px;
+    margin-bottom: 9px;
+    margin-top: 9px;
+    padding: 2px 6px;
+    color: #000000;
+    font-weight: normal;
+}
+/* ---------------- Buttons ---------------- */
+
+select, input, button {
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 0;
+}
+
+.navbutton input {
+    max-height: 20px;
+    font-size: 0.9em;
+    border-radius: 8px;
+}
+
+#loginbtn, input, button, select {
+    cursor: pointer;
+}
+
+input[type="text"], input[type="password"], textarea {
+    cursor: text;
+    border-radius: 8px;
+}
+
+input[type="submit"], input[type="button"] {
+    max-height: 20px;
+    font-size: 0.9em;
+    border-radius: 8px;
+}
+
+select {
+    border-radius: 8px;
+}
+
+/* ---------------- Header banner ---------------- */
+
+/* Logo at top of page */
+/* The logo is controlled by the settings page */
+
+#page-header {
+    position:relative;
+    min-height:100px;}
+
+#page-header .sitelogo {
+    float:left;
+    }
+
+.headermain {
+    display: none;
+}
+
+/* ---------------- Login information ---------------- */
+
+/* Login info at the top */
+
+.headermenu .logininfo {
+    color: #000000;
+    float: right;
+}
+
+.headermenu .logininfo a {
+    color: #0000FF;
+}
+
+.headermenu .logininfo a:hover {
+    color: #FF8000;
+}
+
+/* Login info at the bottom */
+
+#page-footer .logininfo {
+    color: #000000;
+}
+
+#page-footer .logininfo a {
+    color: #0000FF;
+}
+
+#page-footer .logininfo a:hover {
+    color: #FF8000;
+}
+
+/* ---------------- Front page general ---------------- */
+
+.sitetopic {
+    border: 1px #B3B3B3 solid;
+    border-radius: 10px;
+    padding: 10px;
+    background: #FFFFFF;
+}
+
+/* ---------------- Front page course list ---------------- */
+
+#page-site-index div.course_category_tree {
+    background: #FFFFFF;
+    border: 1px #B3B3B3 solid;
+    padding: 6px;
+}
+
+/* Course search box */
+
+#coursesearch, #coursesearch2 {
+    text-align: center;
+    color: #000000;
+}
+
+/* Adds some space between category and number of courses within category */
+
+.categorylist .category .numberofcourse {
+    font-size: 0.85em;
+    font-style: normal;
+    margin-left: 10px;
+    color: #B3B3B3;
+}
+
+/* ---------------- Course categories index ---------------- */
+
+/* Category list */
+
+.categorybox {
+    border: medium none;
+    background: #FFFFFF;
+    border: 1px #B3B3B3 solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Course list */
+
+.coursebox {
+    border: 1px #B3B3B3 solid;
+    border-radius: 10px;
+    background: #FFFFFF;
+    margin-bottom: 15px;
+    width: auto;
+    padding: 10px;
+}
+
+/* ---------------- General boxes throughout site ---------------- */
+
+.generalbox {
+    background: #FFFFFF;
+    border: 1px #B3B3B3 solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.mform fieldset {
+    background: #FFFFFF;
+    border: 1px #B3B3B3 solid;
+    border-radius: 10px;
+}
+
+/* ---------------- Theme splash page from lang file ---------------- */
+
+.theme_screenshot h2 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.theme_screenshot {
+    float: left;
+    width: 310px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.theme_screenshot img {
+    max-width: 300px;
+    border: 2px solid black;
+     -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.theme_description {
+    
+}
+
+/* ---------------- Settings page for theme ---------------- */
+
+#adminsettings .form-item .form-label {
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: right;
+    padding-right: 5px;
+}
+
+#adminsettings .form-item .form-label .form-shortname {
+    display: block;
+    font-size: 0.7em;
+    font-weight: normal;
+}

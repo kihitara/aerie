@@ -1,0 +1,258 @@
+/* ---------------- Blocks ---------------- */
+
+/** Override the region width **/
+#page-content #region-main-box {float:left;left:[[setting:regionwidth]];position:relative;width:200%;}
+#page-content #region-post-box {float:left;left:50%;margin-left:-[[setting:regionwidthdouble]];position:relative;width:100%;}
+#page-content #region-main-wrap {float:right;position:relative;right:100%;width:50%;}
+#page-content #region-main {margin-right:0px;margin-left:[[setting:regionwidthdouble]];overflow:hidden;}
+#page-content #region-pre {float:left;left:[[setting:regionwidth]];overflow:hidden;position:relative;width:[[setting:regionwidth]];margin-left:-50%;}
+#page-content #region-post {float:left;left:0px;overflow:hidden;position:relative;width:[[setting:regionwidth]];}
+
+/** Only side pre **/
+.side-pre-only #page-content #region-post-box {margin-left:-[[setting:regionwidth]];}
+.side-pre-only #page-content #region-main {margin-left:[[setting:regionwidth]];}
+.side-pre-only #page-content #region-pre {left:0px;}
+.side-pre-only #page-content #region-post {width:0px;}
+
+/** Only side post **/
+.side-post-only #page-content #region-main-box {left:0px;}
+.side-post-only #page-content #region-post-box {margin-left:-[[setting:regionwidth]];}
+.side-post-only #page-content #region-main {margin-left:[[setting:regionwidth]];}
+.side-post-only #page-content #region-pre {width:0px;}
+.has_dock.side-post-only .page-middle #region-main {margin-left:[[setting:regionwidth]];}
+
+/** Moving block when side-post-only **/
+.blocks-moving.side-post-only #page-content #region-main-box {left:[[setting:regionwidth]];width:200%;}
+.blocks-moving.side-post-only #page-content #region-post-box {margin-left:-[[setting:regionwidthdouble]];}
+.blocks-moving.side-post-only #page-content #region-main {margin-left:[[setting:regionwidthdouble]];}
+.blocks-moving.side-post-only #page-content #region-pre {left:[[setting:regionwidth]];width:[[setting:regionwidth]];}
+.blocks-moving.side-post-only #page-content #region-post {left:0px;width:[[setting:regionwidth]];}
+
+/** No blocks whatsoever **/
+.content-only #page-content {min-width:0;}
+.content-only #page-content #region-main-box {left:0px;}
+.content-only #page-content #region-post-box {margin-left:0px;}
+.content-only #page-content #region-main {margin-left:0px;}
+.content-only #page-content #region-pre {left:0;width:0px;}
+.content-only #page-content #region-post {width:0;}
+
+/** Report layout **/
+.pagelayout-report #report-main-content .region-content {margin-left:[[setting:regionwidth]];}
+.pagelayout-report #report-region-pre {width:[[setting:regionwidth]];}
+
+/** Correct for right to left languages **/
+.dir-rtl.pagelayout-report #report-main-content .region-content {margin-left:0;margin-right:[[setting:regionwidth]];}
+
+/** Stabalise IE6 behaviour on the report layout **/
+.ie6.pagelayout-report #report-region-wrap {float:none;width:[[setting:regionwidth]];left:auto;position:absolute;top:0;}
+
+/* Block heading font */
+
+.block .header h2 {
+    margin: 0px;
+    font-size: 0.9em;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 6px;
+    padding-right: 2px;
+    background: transparent;
+}
+
+/* Margins around blocks */
+#page-content .block-region .region-content {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 5px;
+}
+
+/* Hide and dock action buttons in block */
+
+.block .header .block_action {
+    float: right;
+    margin-right: 2px;
+    vertical-align: top;
+}
+
+/* Margin around the dock button, setting this larger does funny things to the hide button */
+
+.block .header .block_action input {
+    padding: 0;
+    margin-right: 8px;
+    margin-top: 6px;
+}
+
+/* List items in block */
+
+.block .content {
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 0.9em;
+}
+
+.block_tree .tree_item {
+    margin: 0;
+    padding: 0;
+}
+
+.block_settings .block_tree li ul {
+    margin: 0;
+    padding-left: 16px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+}
+
+/* Command editing buttons */
+
+.block .commands {
+    padding-left: 6px;
+    padding-top: 2px;
+}
+
+/* General block settings */
+
+.block {
+    border: 1px #B3B3B3 solid;
+    margin-bottom: 1em;
+    background-image: url([[pix:theme|hgradient]]);
+    background-repeat: repeat-x;
+    background-position: top left;
+    background-color: [[setting:blockcolor]];
+    border-radius: 10px;
+}
+
+/* Links in the blocks */
+
+.block a {
+    color: #0000FF;
+    text-decoration: none;
+}
+
+.block a:hover {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+/* Moving blocks */
+
+.blockmovetarget {
+    border-style: dotted;
+    border-width: 2px;
+    border-color: #0000ff;
+    display: block;
+    height: 1em;
+    margin-bottom: 1em;
+}
+
+.blockmovetarget:hover {
+    border-color: #FF0000;
+}
+
+/* Moving this block (Cancel) text */
+
+.blockannotation {
+    color: #000000;
+}
+
+.blockannotation a {
+    color: #0000FF;
+}
+
+.blockannotation a:hover {
+    color: #ff0000;
+}
+
+/* Remove items from navigation block */
+/* Remove "My home" */
+/* .block_navigation .type_setting.depth_2 { display: none; } */
+
+/* Remove "Site Pages" */
+/* .block_navigation .type_course.depth_2  { display: none; } */
+
+/* Remove "My Profile" */
+/* .block_navigation .type_user.depth_2 { display: none; } */
+
+/* Remove "Courses" */
+/* .block_navigation .type_system.depth_2 { display: none; } */
+
+/* ------ Calendar block -------- */
+
+.block .minicalendar th,
+.block .minicalendar td {
+    border: none;
+}
+
+/* ---------------- Top & Bottom Blocks ---------------- */
+
+#topblockwrap {
+    clear: both;
+    margin-top: 5px;
+}
+
+.top-blocks {
+    float: left;
+    width: 33.33%;
+}
+
+#blocktopleft {
+    margin-left: 5px;
+    margin-right: 2px;
+    min-width: 230px;
+    min-height: 1px;
+    max-height: 150px;
+    overflow: auto;
+}
+
+#blocktopmid {
+    margin-left: 2px;
+    margin-right: 2px;
+    min-width: 230px;
+    min-height: 1px;
+    max-height: 150px;
+    overflow: auto;
+}
+
+#blocktopright {
+    margin-left: 2px;
+    margin-right: 5px;
+    min-width: 230px;
+    min-height: 1px;
+    max-height: 150px;
+    overflow: auto;
+}
+
+#btmblockwrap {
+    clear: both;
+}
+
+.btm-blocks {
+    width: 33.33%;
+    float: left;
+}
+
+#blockbtmleft {
+    margin-left: 5px;
+    margin-right: 2px;
+    min-width: 230px;
+    min-height: 1px;
+    max-height: 150px;
+    overflow: auto;
+}
+
+#blockbtmmid {
+    margin-left: 2px;
+    margin-right: 2px;
+    min-width: 230px;
+    min-height: 1px;
+    max-height: 150px;
+    overflow: auto;
+}
+
+#blockbtmright {
+    margin-left: 2px;
+    margin-right: 5px;
+    min-width: 230px;
+    min-height: 1px;
+    max-height: 150px;
+    overflow: auto;
+}

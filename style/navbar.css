@@ -1,0 +1,31 @@
+/* ---------------- Navigation breadcrumb bar---------------- */
+
+.navbar {
+    clear: both;
+    overflow: hidden;
+    background-image: url([[pix:theme|hgradient]]);
+    background-repeat: repeat-x;
+    background-position: top left;
+    background-color: [[setting:navbarcolor]];
+    border: 1px #B3B3B3 solid;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    min-height: 20px;
+}
+
+/* Unlinked text in navbar */
+
+.breadcrumb ul {
+    color: #000000;
+}
+
+/* Links in navbar */
+
+.navbar a {
+    color: #0000FF;
+}
+
+.navbar a:hover {
+    color: #FF0000;
+}

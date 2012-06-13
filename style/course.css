@@ -1,0 +1,66 @@
+/* ---------------- Course ---------------- */
+
+/* "Topic outline" heading block */
+
+.path-course-view .headingblock {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+/* The "Your progress" text */
+
+.path-course-view .completionprogress {
+    float: right;
+    color: #000000;
+    margin-top: 2px;
+}
+
+/* Topic box content area */
+
+.course-content .content {
+    padding: 10px;
+    background: #FFFFFF;
+    overflow: auto;
+}
+
+/* General topic */
+
+.course-content .main {
+    background-color: [[setting:topiccolor]];
+    border: 1px #B3B3B3 solid;
+}
+
+/* Highlighted topic */
+
+.course-content .current {
+    background-color: [[setting:highlightedtopiccolor]];
+    border: 1px #B3B3B3 solid;
+}
+
+/* Hidden topic */
+
+.course-content .hidden {
+    background: #FFFFFF;
+    border: 2px #B3B3B3 dashed;
+    opacity: 0.5;
+}
+
+/* Completion tick boxes */
+
+.path-course-view li.activity span.autocompletion, .path-course-view li.activity form.togglecompletion {
+    display: inline;
+    padding: 5px 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 10;
+}
+
+/* On a dark or patterned body background, it is important
+  to set this to something light. This controls the color
+  behind form inputs such as labels */
+
+.mform fieldset div {
+    margin: 0 10px 10px;
+    background: transparent;
+}
