@@ -1,3 +1,7 @@
+******************************************
+**************** Aerie *******************
+******************************************
+
 Aerie is a fluid-width, three-column theme for Moodle 2.2,
 
 with six extra positions for blocks (three top and three bottom).
@@ -26,9 +30,22 @@ aim is to have this theme fully compatible with all versions of
 
 Moodle 2.
 
+*************** Installing ***************
+If you have downloaded this from Moodle.org, simply unzip the
+file and copy the "aerie" folder to your Moodle theme directory.
+
+If you have downloaded this from github, unzip the file, rename
+the "kihitara-moodle-theme_aerie-NUMBERS" folder to "aerie", then
+copy that folder to your Moodle theme directory.
 
 
-********** Updates ***********
+
+
+**************** Updates *****************
+
+19/06/12
+- Fixed lang string issue with name of font creator
+- Fixed no sideways scroll on course completion chart
 
 03/04/12 - Improved the block size changing functionality so it works
 
@@ -41,4 +58,5 @@ side.
 Added credit to MoodleBites for Theme Designers
 
 (http://www.moodlebites.com) in the footer, and a setting on the
+
 settings page to remove it.
