@@ -64,3 +64,9 @@
     margin: 0 10px 10px;
     background: transparent;
 }
+
+/* ---------------- Completion progress ---------------- */
+/* Fix no sideways scroll on wide completion progress table */
+#page-report-completion-index #page-content .region-content {
+overflow: auto;
+}
