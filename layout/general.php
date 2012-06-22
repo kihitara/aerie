@@ -181,7 +181,7 @@ echo $OUTPUT->doctype() ?>
 		    </div>
     <?php } ?>
     <!-- End bottom of page blocks -->
-
+	<div class="clearfix"></div>
     </div>
 
 <!-- START OF FOOTER -->
