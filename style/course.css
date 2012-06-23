@@ -70,3 +70,16 @@
 #page-report-completion-index #page-content .region-content {
 overflow: auto;
 }
+
+/* ---------------- Quiz attempts ---------------- */
+.pagelayout-report .no-overflow {
+    overflow: auto;
+}
+
+.pagelayout-report .graph {
+    overflow: auto;
+}
+
+.pagelayout-report img {
+    overflow: hidden;
+}
