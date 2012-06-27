@@ -44,6 +44,7 @@ copy that folder to your Moodle theme directory.
 **************** Updates *****************
 27/06/12
 - Testing Github integration with PhpStorm.
+- Testing again.
 
 23/06/12
 - Overflow in quiz report
