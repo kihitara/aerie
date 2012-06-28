@@ -42,8 +42,9 @@ copy that folder to your Moodle theme directory.
 
 
 **************** Updates *****************
-27/06/12
+27/06/12 - 28/06/12
 - Test going other way.
+- Test from Windows.
 
 23/06/12
 - Overflow in quiz report
