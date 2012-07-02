@@ -34,6 +34,8 @@ folder to "aerie", then copy that folder
 to your Moodle theme directory.
 
 **************** Updates *****************
+02/07/12
+- Block regions fixed for Moodle 2.3
 
 23/06/12
 - Overflow in quiz report
