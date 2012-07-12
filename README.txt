@@ -34,6 +34,12 @@ folder to "aerie", then copy that folder
 to your Moodle theme directory.
 
 **************** Updates *****************
+12/07/12
+- Block regions DO NOT work in 2.3 with
+  editing turned on. Side-post vanishes.
+  No fix yet!
+- Minor other tweaks instead.
+
 02/07/12
 - Block regions fixed for Moodle 2.3
 
