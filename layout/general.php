@@ -70,7 +70,7 @@ echo $OUTPUT->doctype() ?>
 		           		if (!empty($PAGE->layout_options['langmenu'])) {
 		        	       	echo $OUTPUT->lang_menu();
 			    	    }
-    			       	echo $PAGE->headingmenu
+    			       	echo $PAGE->headingmenu;
         			?>
 	        	</div>
 	        <?php } ?>
@@ -90,29 +90,29 @@ echo $OUTPUT->doctype() ?>
 
     <!-- The three blocks added to the top of the page -->
     <?php if ($hastopblocks) { ?>
-		    <div id="topblockwrap">
+		<div id="topblockwrap">
 		    <div class="top-blocks">
-		    <div id="blocktopleft" class="block-region">
-		    <div class="region-content">
+		        <div id="blocktopleft" class="block-region">
+		            <div class="region-content">
                         <?php echo $OUTPUT->blocks_for_region('block-top-left') ?>
                     </div>
-		    </div>
+		        </div>
 		    </div>
 		    <div class="top-blocks">
-		    <div id="blocktopmid" class="block-region">
-		    <div class="region-content">
+		        <div id="blocktopmid" class="block-region">
+		            <div class="region-content">
                         <?php echo $OUTPUT->blocks_for_region('block-top-mid') ?>
                     </div>
-		    </div>
+		        </div>
 		    </div>
 		    <div class="top-blocks">
-		    <div id="blocktopright" class="block-region">
-		    <div class="region-content">
+		        <div id="blocktopright" class="block-region">
+		            <div class="region-content">
                         <?php echo $OUTPUT->blocks_for_region('block-top-right') ?>
                     </div>
+		        </div>
 		    </div>
-		    </div>
-		    </div>
+		</div>
     <?php } ?>
     <!-- End top of page blocks -->
 
@@ -156,32 +156,32 @@ echo $OUTPUT->doctype() ?>
 
     <!-- The three blocks added to the bottom of the page -->
     <?php if ($hasbtmblocks) { ?>
-		    <div id="btmblockwrap">
+		<div id="btmblockwrap">
 		    <div class="btm-blocks">
-		    <div id="blockbtmleft" class="block-region">
-		    <div class="region-content">
+		        <div id="blockbtmleft" class="block-region">
+		            <div class="region-content">
                         <?php echo $OUTPUT->blocks_for_region('block-btm-left') ?>
                     </div>
-		    </div>
+		        </div>
 		    </div>
 		    <div class="btm-blocks">
-		    <div id="blockbtmmid" class="block-region">
-		    <div class="region-content">
+		        <div id="blockbtmmid" class="block-region">
+		            <div class="region-content">
                         <?php echo $OUTPUT->blocks_for_region('block-btm-mid') ?>
                     </div>
-		    </div>
+		        </div>
 		    </div>
 		    <div class="btm-blocks">
-		    <div id="blockbtmright" class="block-region">
-		    <div class="region-content">
+		        <div id="blockbtmright" class="block-region">
+		            <div class="region-content">
                         <?php echo $OUTPUT->blocks_for_region('block-btm-right') ?>
                     </div>
+		        </div>
 		    </div>
-		    </div>
-		    </div>
+		</div>
     <?php } ?>
     <!-- End bottom of page blocks -->
-	<div class="clearfix"></div>
+        <div class="clearfix"></div>
     </div>
 
 <!-- START OF FOOTER -->

@@ -1,3 +1,8 @@
+#page-content .block-region .region-content {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 /* ---------------- Blocks ---------------- */
 
 /** Override the region width **/
