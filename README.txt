@@ -2,6 +2,8 @@
 **************** Aerie *******************
 ******************************************
 
+=== AERIE DOES NOT WORK IN MOODLE 2.3 ===
+
 Aerie is a fluid-width, three-column theme
 for Moodle 2.2, with six extra positions
 for blocks (three top and three bottom).
@@ -34,6 +36,10 @@ folder to "aerie", then copy that folder
 to your Moodle theme directory.
 
 **************** Updates *****************
+16/10/12
+- Style sheets in correct order in config
+  now.
+
 12/07/12
 - Block regions DO NOT work in 2.3 with
   editing turned on. Side-post vanishes.
