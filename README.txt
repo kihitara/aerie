@@ -48,6 +48,7 @@ to your Moodle theme directory.
 **************** Updates *****************
 24/10/12
 - Fixed main content token.
+- Fixed block names in config.
 - Theme still won't work in 2.3 onwards.
 
 16/10/12
