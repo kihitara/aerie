@@ -35,38 +35,38 @@ $THEME->layouts = array(
     // Standard layout with blocks, this is recommended for most pages with general information
     'standard' => array(
         'file' => 'general.php',
-        'regions' => array('side-pre', 'side-post','block-top-left','block-top-mid','block-top-right','block-btm-left','block-btm-mid','block-btm-right'),
+        'regions' => array('side-pre', 'side-post','blocktopleft','blocktopmid','blocktopright','blockbtmleft','blockbtmmid','blockbtmright'),
         'defaultregion' => 'side-post',
     ),
     // Main course page
     'course' => array(
         'file' => 'general.php',
-        'regions' => array('side-pre', 'side-post','block-top-left','block-top-mid','block-top-right','block-btm-left','block-btm-mid','block-btm-right'),
+        'regions' => array('side-pre', 'side-post','blocktopleft','blocktopmid','blocktopright','blockbtmleft','blockbtmmid','blockbtmright'),
         'defaultregion' => 'side-post',
         'options' => array('langmenu'=>true),
     ),
     // Grades page
     'report' => array(
         'file' => 'general.php',
-        'regions' => array('side-pre', 'side-post','block-top-left','block-top-mid','block-top-right','block-btm-left','block-btm-mid','block-btm-right'),
+        'regions' => array('side-pre', 'side-post','blocktopleft','blocktopmid','blocktopright','blockbtmleft','blockbtmmid','blockbtmright'),
         'defaultregion' => 'side-post',
         'options' => array('nocustommenu'=>true),
     ),
     'coursecategory' => array(
         'file' => 'general.php',
-        'regions' => array('side-pre', 'side-post','block-top-left','block-top-mid','block-top-right','block-btm-left','block-btm-mid','block-btm-right'),
+        'regions' => array('side-pre', 'side-post','blocktopleft','blocktopmid','blocktopright','blockbtmleft','blockbtmmid','blockbtmright'),
         'defaultregion' => 'side-post',
     ),
     // part of course, typical for modules - default page layout if $cm specified in require_login()
     'incourse' => array(
         'file' => 'general.php',
-        'regions' => array('side-pre', 'side-post','block-top-left','block-top-mid','block-top-right','block-btm-left','block-btm-mid','block-btm-right'),
+        'regions' => array('side-pre', 'side-post','blocktopleft','blocktopmid','blocktopright','blockbtmleft','blockbtmmid','blockbtmright'),
         'defaultregion' => 'side-post',
     ),
     // The site home page.
     'frontpage' => array(
         'file' => 'general.php',
-        'regions' => array('side-pre', 'side-post','block-top-left','block-top-mid','block-top-right','block-btm-left','block-btm-mid','block-btm-right'),
+        'regions' => array('side-pre', 'side-post','blocktopleft','blocktopmid','blocktopright','blockbtmleft','blockbtmmid','blockbtmright'),
         'defaultregion' => 'side-post',
         'options' => array('nonavbar'=>true, 'langmenu'=>true),
     ),
@@ -79,14 +79,14 @@ $THEME->layouts = array(
     // My dashboard page
     'mydashboard' => array(
         'file' => 'general.php',
-        'regions' => array('side-pre', 'side-post','block-top-left','block-top-mid','block-top-right','block-btm-left','block-btm-mid','block-btm-right'),
+        'regions' => array('side-pre', 'side-post','blocktopleft','blocktopmid','blocktopright','blockbtmleft','blockbtmmid','blockbtmright'),
         'defaultregion' => 'side-post',
         'options' => array('langmenu'=>true),
     ),
     // My public page
     'mypublic' => array(
         'file' => 'general.php',
-        'regions' => array('side-pre', 'side-post','block-top-left','block-top-mid','block-top-right','block-btm-left','block-btm-mid','block-btm-right'),
+        'regions' => array('side-pre', 'side-post','blocktopleft','blocktopmid','blocktopright','blockbtmleft','blockbtmmid','blockbtmright'),
         'defaultregion' => 'side-post',
     ),
     'login' => array(
