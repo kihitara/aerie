@@ -3,6 +3,15 @@
 ******************************************
 
 === AERIE DOES NOT WORK IN MOODLE 2.3 ===
+=============== OR NEWER ================
+
+If you want a version of Aerie for 2.3
+onwards, please download Aerie Lite.
+Aerie Lite does not have the extra block
+areas, but has all other features of
+Aerie.
+
+=========================================
 
 Aerie is a fluid-width, three-column theme
 for Moodle 2.2, with six extra positions
@@ -36,6 +45,10 @@ folder to "aerie", then copy that folder
 to your Moodle theme directory.
 
 **************** Updates *****************
+24/10/12
+- Fixed main content token.
+- Theme still won't work in 2.3 onwards.
+
 16/10/12
 - Style sheets in correct order in config
   now.
