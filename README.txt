@@ -2,12 +2,13 @@
 **************** Aerie *******************
 ******************************************
 
+=========================================
 === AERIE DOES NOT WORK IN MOODLE 2.3 ===
 =============== OR NEWER ================
 
 If you want a version of Aerie for 2.3
 onwards, please download Aerie Lite.
-Aerie Lite does not have the extra block
+Aerie Lite does NOT have the extra block
 areas, but has all other features of
 Aerie.
 
